@@ -11,13 +11,15 @@ Rural healthcare monitoring is largely manual and reactive. ASHA workers collect
 health survey data in villages, but the lack of real-time analysis makes it
 difficult for authorities to identify disease clusters early and respond
 effectively.
+## “From Surveys to Solutions: Smarter Village Healthcare.”-----
 
 ## Proposed Solution
 PSCMR is an AI-powered village health mapping platform that enables ASHA workers
 to submit health survey data digitally. The system uses AI to analyze the data,
 identify health risks, classify severity levels, and visualize affected areas
 on a village map for proactive government intervention.
-##architecture
+
+## ARCHITECTURE
 1. ASHA WORKER SURVEY COLLECTION
 START
   ↓
@@ -164,7 +166,7 @@ Symptoms → ASHA Survey → AI Prediction → Live Map → Govt Alert
 - Village-level health visualization
 - Scalable web-based architecture
 
-## Tech Stack
+## TECHNICAL STACK
 - Frontend: React + TypeScript + Vite
 - Backend: Node.js + Express
 - AI: Google Gemini API
