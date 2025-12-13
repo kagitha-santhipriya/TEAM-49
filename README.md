@@ -35,4 +35,28 @@ on a village map for proactive government intervention.
 The AI component uses a carefully engineered prompt to convert unstructured ASHA
 survey data into structured health insights.
 
-### Sample Prompt Used
+##file structure
+healthguard-village-mapping/
+│
+├── components/
+│   ├── AshaForm.tsx          # ASHA worker survey input form
+│   └── VillageMap.tsx       # Village health visualization / map
+│
+├── services/
+│   └── geminiService.ts     # AI prompt + Gemini API integration
+│
+├── server/
+│   └── api.js               # Backend API for AI requests
+│
+├── App.tsx                  # Main React application
+├── index.tsx                # React entry point
+├── index.html               # HTML root file
+│
+├── package.json             # Project dependencies & scripts
+├── package-lock.json        # Dependency lock file
+├── vite.config.ts           # Vite configuration
+├── tsconfig.json            # TypeScript configuration
+│
+├── README.md                # Problem statement + prompts + structure
+│
+└── .gitignore               # Ignore node_modules, env files
