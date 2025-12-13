@@ -148,7 +148,14 @@ Faster Government Response
 Reduced Spread
   ↓
 Lives Saved
+########differences between existing and our project 
+EXISTING SYSTEM
+Symptoms → Hospital → Confirmation → Manual Report → Late Action
+                   ❌ Reactive
 
+                HEALTHGUARD AI
+Symptoms → ASHA Survey → AI Prediction → Live Map → Govt Alert
+                   ✅ Proactive
 ## Key Features
 - Digital ASHA worker survey input
 - AI-based health risk analysis
