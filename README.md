@@ -19,6 +19,14 @@ to submit health survey data digitally. The system uses AI to analyze the data,
 identify health risks, classify severity levels, and visualize affected areas
 on a village map for proactive government intervention.
 
+
+## VISUAL DEMO
+## 1.ASHA WORKERS PORTAL
+<img width="1877" height="854" alt="image" src="https://github.com/user-attachments/assets/d67ace53-a6ff-42ec-b5a2-89c786858acd" />
+## 2.GOVT DASHBOARD
+<img width="1919" height="847" alt="image" src="https://github.com/user-attachments/assets/4b11033e-aa55-4220-833e-f88f48918865" />
+
+
 ## ARCHITECTURE
 1. ASHA WORKER SURVEY COLLECTION
 START
