@@ -6,13 +6,16 @@ InnovateAI
 ## Hackathon
 JNTUGV Hackathon 2025
 
-## Problem Statement
+## 1.PROJECT TITLTE:
+HEALTH GUARD-AI MAPPING SYSTEM
+## “From Surveys to Solutions: Smarter Village Healthcare.”-----
+
+
+## 2.Problem Statement
 Rural healthcare monitoring is largely manual and reactive. ASHA workers collect
 health survey data in villages, but the lack of real-time analysis makes it
 difficult for authorities to identify disease clusters early and respond
 effectively.
-## “From Surveys to Solutions: Smarter Village Healthcare.”-----
-
 ## Proposed Solution
 PSCMR is an AI-powered village health mapping platform that enables ASHA workers
 to submit health survey data digitally. The system uses AI to analyze the data,
@@ -20,11 +23,11 @@ identify health risks, classify severity levels, and visualize affected areas
 on a village map for proactive government intervention.
 
 
-## VISUAL DEMO
-## 1.ASHA WORKERS PORTAL
+## 3.VISUAL DEMO
+## i.ASHA WORKERS PORTAL
 <img width="1877" height="854" alt="image" src="https://github.com/user-attachments/assets/d67ace53-a6ff-42ec-b5a2-89c786858acd" />
 
-## 2.GOVT DASHBOARD
+## ii.GOVT DASHBOARD
 <img width="1919" height="847" alt="image" src="https://github.com/user-attachments/assets/4b11033e-aa55-4220-833e-f88f48918865" />
 
 
@@ -168,14 +171,14 @@ Symptoms → Hospital → Confirmation → Manual Report → Late Action
                 HEALTHGUARD AI
 Symptoms → ASHA Survey → AI Prediction → Live Map → Govt Alert
                    ✅ Proactive
-## Key Features
+## 4.Key Features
 - Digital ASHA worker survey input
 - AI-based health risk analysis
 - Severity classification (Low / Medium / High)
 - Village-level health visualization
 - Scalable web-based architecture
 
-## TECHNICAL STACK
+## 6.TECHNICAL STACK
 - Frontend: React + TypeScript + Vite
 - Backend: Node.js + Express
 - AI: Google Gemini API
@@ -211,16 +214,16 @@ healthguard-village-mapping/
 │
 └── .gitignore               # Ignore node_modules, env files
 
-## INSTALLATION AND SETUP
+## 7.INSTALLATION AND SETUP
 
 ## Installation and Setup
 
-### Prerequisites
+## Prerequisites
 - Node.js (v18 or above)
 - npm
 - Git
 
-### Steps to Run the Project
+## Steps to Run the Project
 
 1. Clone the repository:
 ```bash
@@ -245,8 +248,7 @@ npm start
 5.Open in browser:
 
 arduino
-Copy code
-http://localhost:3000
+Copy code -http://localhost:3000
 
 ## INITIAL PROMPT
 Project Name: AI-Enabled Village Health Mapping System
@@ -294,4 +296,30 @@ DECISION LOGIC GUIDELINES:
   influence disease prediction.
 - Prioritize early outbreak detection over certainty
 
+8.REAL WORLD IMPACT AND FUTURE SCOPE :
+  ## Impact:
+- Faster detection of outbreaks
+- Reduces manual errors
+- Real-time insights
+- Saves lives through early intervention
 
+  ## Future Scope:
+- Predictive outbreak modelling
+- Govt API integration
+- SMS alerts
+- Offline ASHA mobile app
+
+## 9.TEAM AND ACKNOWLEDGEMENTS:
+## Team NAME: InnovateAI
+- Member 1 –K.SANTHI PRIYA   
+- Member 2 –V.LIKHITHA  
+- Member 3 – Y.PUJA SRI 
+
+## Acknowledgements
+- Faculty mentor for project guidance  
+- Google AI Studio for AI assistance  
+- Open-source libraries and documentation
+
+## 10.LICENSE:
+
+We used the MIT License, which allows others to use and modify the project while giving credit to the original authors.
