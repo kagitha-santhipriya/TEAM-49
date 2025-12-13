@@ -23,6 +23,7 @@ on a village map for proactive government intervention.
 ## VISUAL DEMO
 ## 1.ASHA WORKERS PORTAL
 <img width="1877" height="854" alt="image" src="https://github.com/user-attachments/assets/d67ace53-a6ff-42ec-b5a2-89c786858acd" />
+
 ## 2.GOVT DASHBOARD
 <img width="1919" height="847" alt="image" src="https://github.com/user-attachments/assets/4b11033e-aa55-4220-833e-f88f48918865" />
 
@@ -209,7 +210,45 @@ healthguard-village-mapping/
 ├── README.md                # Problem statement + prompts + structure
 │
 └── .gitignore               # Ignore node_modules, env files
-##intial prompt
+
+## INSTALLATION AND SETUP
+
+## Installation and Setup
+
+### Prerequisites
+- Node.js (v18 or above)
+- npm
+- Git
+
+### Steps to Run the Project
+
+1. Clone the repository:
+```bash
+git clone https://github.com/your-username/healthguard.git
+cd healthguard
+2. Install dependencies:
+
+bash
+Copy code
+npm install
+3.Create a .env file in the root directory and add Firebase configuration:
+
+env
+4.Copy code
+REACT_APP_FIREBASE_API_KEY=your_firebase_api_key
+REACT_APP_FIREBASE_PROJECT_ID=your_firebase_project_id
+Start the application:
+
+bash
+Copy code
+npm start
+5.Open in browser:
+
+arduino
+Copy code
+http://localhost:3000
+
+## INITIAL PROMPT
 Project Name: AI-Enabled Village Health Mapping System
 Description:
 A real-time web application where ASHA workers log in to report disease cases in their allotted villages. Each village appears on a Google India map with color-coded zones: red for high cases, yellow for moderate, and green when the issue is resolved. The government dashboard monitors these zones, enabling faster action. AI rules predict potential outbreaks and alert authorities for timely intervention.
@@ -217,8 +256,11 @@ Area of Interest:
 Public health monitoring
 Rural healthcare management
 Real-time AI-driven decision support
-##updated prompt
+
+## updated prompt
 On the 'Gov Dashboard' tab, above the map, add a search bar. This search bar should allow government authorities to search for villages by name. As the user types, the map should automatically pan and zoom to the closest matching village, and its details should be highlighted.
+
+
 ## final updated promptYou are HealthGuard AI, a public health surveillance assistant
 supporting ASHA workers and government health officials in India.
 
@@ -251,4 +293,5 @@ DECISION LOGIC GUIDELINES:
 - Symptom clusters (fever, vomiting, joint pain, rashes) should
   influence disease prediction.
 - Prioritize early outbreak detection over certainty
+
 
