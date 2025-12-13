@@ -5,6 +5,7 @@ InnovateAI
 
 ## Hackathon
 JNTUGV Hackathon 2025
+GenAI -versity dec 2025 hackathon
 
 ## 1.PROJECT TITLTE:
 HEALTH GUARD-AI MAPPING SYSTEM
