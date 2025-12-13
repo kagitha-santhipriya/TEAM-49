@@ -1,4 +1,4 @@
-# HEALTH GUARD -MAPPING SYSTEM
+# HEALTH GUARD - AI Powered MAPPING SYSTEM
 
 ## Team Name
 InnovateAI
