@@ -60,3 +60,11 @@ healthguard-village-mapping/
 ├── README.md                # Problem statement + prompts + structure
 │
 └── .gitignore               # Ignore node_modules, env files
+##intial prompt
+Project Name: AI-Enabled Village Health Mapping System
+Description:
+A real-time web application where ASHA workers log in to report disease cases in their allotted villages. Each village appears on a Google India map with color-coded zones: red for high cases, yellow for moderate, and green when the issue is resolved. The government dashboard monitors these zones, enabling faster action. AI rules predict potential outbreaks and alert authorities for timely intervention.
+Area of Interest:
+Public health monitoring
+Rural healthcare management
+Real-time AI-driven decision support
