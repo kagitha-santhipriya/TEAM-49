@@ -178,6 +178,10 @@ Symptoms → ASHA Survey → AI Prediction → Live Map → Govt Alert
 - Village-level health visualization
 - Scalable web-based architecture
 
+## 5.demo link
+JNTUGV genaiversity hackathon 2025 dec
+https://youtu.be/gZZ_Ru8J4KM?si=bhNwtgAlUUKJfyNf
+
 ## 6.TECHNICAL STACK
 - Frontend: React + TypeScript + Vite
 - Backend: Node.js + Express
