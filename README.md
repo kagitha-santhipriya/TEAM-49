@@ -68,3 +68,5 @@ Area of Interest:
 Public health monitoring
 Rural healthcare management
 Real-time AI-driven decision support
+##updated prompt
+On the 'Gov Dashboard' tab, above the map, add a search bar. This search bar should allow government authorities to search for villages by name. As the user types, the map should automatically pan and zoom to the closest matching village, and its details should be highlighted.
