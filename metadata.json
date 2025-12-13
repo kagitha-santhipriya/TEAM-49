@@ -1,0 +1,5 @@
+{
+  "name": "HealthMap AI",
+  "description": "A real-time village health monitoring system connecting ASHA workers with government administration. Features interactive mapping, disease reporting, and AI-driven outbreak prediction.",
+  "requestFramePermissions": []
+}
