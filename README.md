@@ -17,6 +17,137 @@ PSCMR is an AI-powered village health mapping platform that enables ASHA workers
 to submit health survey data digitally. The system uses AI to analyze the data,
 identify health risks, classify severity levels, and visualize affected areas
 on a village map for proactive government intervention.
+##architecture
+1. ASHA WORKER SURVEY COLLECTION
+START
+  ↓
+ASHA Worker opens HealthGuard AI Portal
+  ↓
+Enter Worker Name
+  ↓
+Enter Allotted Village
+  ↓
+Fetch Location (GPS / Find Coords)
+  ↓
+Select Sanitation Status
+   → Good
+   → Ok
+   → Worst
+
+🩺 2. HEALTH DATA INPUT
+Enter Number of Affected People
+  ↓
+Is Disease Known?
+   ├── YES → Enter Disease Name
+   └── NO  → Leave Blank
+  ↓
+Enter Key Symptoms (Mandatory)
+  ↓
+Enter Additional Notes (Optional)
+  ↓
+Submit Survey
+
+🤖 3. AI PROCESSING & DISEASE PREDICTION
+Survey Submitted
+  ↓
+Data sent to AI Engine
+  ↓
+AI analyzes:
+   • Symptoms
+   • Sanitation condition
+   • Affected count
+   • Location history
+
+Is Disease Provided?
+   ├── YES → Validate disease severity
+   └── NO  → AI predicts disease from symptoms
+
+AI Outputs:
+   • Predicted Disease
+   • Outbreak Probability (%)
+   • Risk Score
+
+🧠 4. RISK ANALYSIS & ZONE CLASSIFICATION
+AI Risk Engine evaluates:
+   • No. of cases
+   • Population
+   • Sanitation
+   • Disease type
+   • Past outbreak data
+
+Zone Decision:
+   ├── High Risk → 🔴 RED ZONE
+   ├── Medium Risk → 🟡 YELLOW ZONE
+   └── Low Risk → 🟢 GREEN ZONE
+
+🗺️ 5. REAL-TIME MAP UPDATE
+Location plotted on Google Map
+  ↓
+Color-coded marker applied
+  ↓
+Cluster detection enabled
+  ↓
+Map updates in real time
+
+Markers show:
+   • Village Name
+   • Active Cases
+   • Zone Color
+
+🏛️ 6. GOVERNMENT DASHBOARD VIEW
+Government Officer opens Dashboard
+  ↓
+Views Live Health Map
+  ↓
+Search any Village / Area
+  ↓
+Clicks on Marker
+
+Dashboard Displays:
+   • Zone Status
+   • Active Cases
+   • Population
+   • Reporter Details
+   • Symptoms
+   • AI Prediction
+
+🚨 7. AUTOMATIC ALERT SYSTEM
+Is Zone RED?
+   ├── YES → Trigger Govt Alert
+   │          ↓
+   │     Display Warning Banner
+   │          ↓
+   │     Notify Authorities
+   └── NO → Monitor Continuously
+
+📋 8. AI-GENERATED ACTION PLAN
+For RED / YELLOW Zones:
+  ↓
+AI generates Recommended Actions:
+   • Dispatch medical team
+   • Water quality testing
+   • Sanitation cleanup
+   • Awareness programs
+
+Actions shown on Govt Dashboard
+
+🔄 9. CONTINUOUS MONITORING LOOP
+More ASHA Surveys Submitted
+  ↓
+AI Recalculates Risk
+  ↓
+Zone Updated (Red → Yellow → Green)
+  ↓
+Map Refreshes Automatically
+
+🟢 END GOAL ACHIEVED
+Early Disease Detection
+  ↓
+Faster Government Response
+  ↓
+Reduced Spread
+  ↓
+Lives Saved
 
 ## Key Features
 - Digital ASHA worker survey input
