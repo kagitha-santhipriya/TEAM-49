@@ -193,6 +193,10 @@ https://youtu.be/gZZ_Ru8J4KM?si=bhNwtgAlUUKJfyNf
 - Backend: Node.js + Express
 - AI: Google Gemini API
 - Tools: GitHub, VS Code
+- 
+- ## GITHUB LINK:
+https://github.com/kagitha-santhipriya/health
+
 
 ## AI Prompt Design
 The AI component uses a carefully engineered prompt to convert unstructured ASHA
@@ -226,14 +230,14 @@ healthguard-village-mapping/
 
 ## 7.INSTALLATION AND SETUP
 
-## Installation and Setup
+ Installation and Setup
 
-## Prerequisites
+ Prerequisites
 - Node.js (v18 or above)
 - npm
 - Git
 
-## Steps to Run the Project
+ Steps to Run the Project
 
 1. Clone the repository:
 ```bash
@@ -334,5 +338,3 @@ DECISION LOGIC GUIDELINES:
 
 We used the MIT License, which allows others to use and modify the project while giving credit to the original authors.
 
-## GITHUB LINK:
-https://github.com/kagitha-santhipriya/health
