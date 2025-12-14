@@ -13,6 +13,10 @@ HEALTH GUARD-AI MAPPING SYSTEM
 ## “From Surveys to Solutions: Smarter Village Healthcare.”-----
 
 
+## PPT PRESENTATION VIDEO OF OUR HEALTH GUARD-AI POWERED MAPPING SYSTEM 
+https://youtu.be/azHeoQalU8M?si=orLlKKLmXWCVe5ew
+
+
 ## 2.Problem Statement
 Rural healthcare monitoring is largely manual and reactive. ASHA workers collect
 health survey data in villages, but the lack of real-time analysis makes it
