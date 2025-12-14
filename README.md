@@ -228,7 +228,7 @@ healthguard-village-mapping/
 │
 └── .gitignore               # Ignore node_modules, env files
 
-## 7.INSTALLATION AND SETUP
+## INSTALLATION AND SETUP
 
  Installation and Setup
 
@@ -263,7 +263,6 @@ npm start
 
 arduino
 Copy code -http://localhost:3000
-
 ## INITIAL PROMPT
 Project Name: AI-Enabled Village Health Mapping System
 Description:
