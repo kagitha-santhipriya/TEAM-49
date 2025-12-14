@@ -2,6 +2,7 @@
 
 ## Team Name
 InnovateAI
+from 2nd year b-tech of NRIIT
 
 ## Hackathon
 JNTUGV Hackathon 2025
